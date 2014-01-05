@@ -49,3 +49,5 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/lo
 
 source $ZSH/oh-my-zsh.sh
 source ~/.bash_aliases
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
