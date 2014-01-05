@@ -48,6 +48,5 @@ plugins=(git autojump osx)
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin
 
 source $ZSH/oh-my-zsh.sh
-source ~/.bash_aliases
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
