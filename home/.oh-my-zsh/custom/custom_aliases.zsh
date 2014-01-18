@@ -1,1 +1,10 @@
 alias fs='foreman start -p 3000'
+alias p8='ping 8.8.8.8'
+
+alias r='rails'
+alias rs='rails s'
+alias rc='rails c'
+alias be='bundle exec'
+alias bu='bundle update'
+alias ber='bundle exec rspec'
+alias berd='bundle exec rspec --format documentation'
