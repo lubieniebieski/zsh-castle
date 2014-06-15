@@ -5,6 +5,7 @@ alias gl='git pull'
 compdef _git gl=git-pull
 alias gp='git push'
 compdef _git gp=git-push
+alias gpp='git pull; git push'
 alias gco='git checkout'
 compdef _git gco=git-checkout
 alias grbi='git rebase -i'
@@ -29,6 +30,7 @@ compdef _git ga=git-add
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+alias gcam='git commit -a -m '
 
 #
 # Will return the current branch name
