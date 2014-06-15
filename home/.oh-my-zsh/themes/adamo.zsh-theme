@@ -1,11 +1,11 @@
 # adamo theme based on Fino theme
 
-rvm_ruby='%{$reset_color%}[$FG[203]$(rvm-prompt)%{$reset_color%}]'
+ruby_version='%{$reset_color%}[$FG[203]$(rbenv_prompt_info)%{$reset_color%}]'
 
 local current_dir='${PWD/#$HOME/~}'
 local git_info='$(git_prompt_info)'
 
-PROMPT="$FG[033]%}${current_dir} ${rvm_ruby} ${git_info}
+PROMPT="$FG[033]%}${current_dir} ${ruby_version} ${git_info}
 > "
 
 ZSH_THEME_GIT_PROMPT_PREFIX="$FG[240]("
